@@ -9,7 +9,7 @@ public class Zoho
 		for (int i = 0; i < s.length(); i++)
 		{
 			int n = s.length()/2;
-			for (int j = 0; j < s.length()-i; j++)
+			for (int j = 0; j < s.length()-i-1; j++)
 				System.out.print(" ");
 			for (int j = 0; j <= i; j++)
 			{
